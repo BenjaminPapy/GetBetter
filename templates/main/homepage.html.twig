@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Homepage{% endblock %}
+
+{% block body %}
+    <main class="homepage-main">
+        <section class="home-first-section">
+            <h1>GetBetter</h1>
+            <div class="home-presentation">
+                <p>Bienvenu, ce site met à votre disposition les outils ainsi que les connaissances
+                nécéssaires afin de vous aider à mettre en place une alimentation efficace et adapté
+                à vos objectifs.
+                </p>
+                <p>La création d’un compte n’est pas obligatoire mais vous permettra d’avoir accès au
+                regroupements de vos informations ...
+                </p>
+            </div>
+        </section>
+        <section class="home-second-section">
+            <div class="choices-grid">
+                <div class="home-grid-item">
+                    <a href="#">Les connaissances de base</a>
+                </div>
+                <div class="home-grid-item">
+                    <a href="{{ path('metabolisme-basal') }}">Son métabolisme basale</a>
+                </div>
+                <div class="home-grid-item">
+                    <a href="{{ path('imc') }}">Son Indice de Masse Corporelle</a>
+                </div>
+                <div class="home-grid-item">
+                    <a href="#">???</a>
+                </div>
+            </div>
+        </section>
+    </main>
+{% endblock %}

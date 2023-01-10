@@ -1,0 +1,94 @@
+/* Mobile S base 320px */
+.metabase-header {
+    display: flex;
+    
+    height: 7vh;
+    background: grey;
+    font-size: 4rem;
+}
+
+.metabase-burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.metabase-burger i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    width: 125px;
+    font-size: 7rem;
+    background: rgb(87, 57, 241);
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.metabase-title {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    font-size: 4.5rem;
+}
+
+.metabase-presentation {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 10%;
+}
+
+.metabase-presentation h2 {
+    font-size: 4rem;
+}
+
+.metabase-presentation p {
+    font-size: 3rem;
+    margin: 20px 0 20px;
+}
+
+.metabase-calcul {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10% 0 10%;
+}
+
+.metabase-calcul h2 {
+    font-size: 4rem;
+}
+
+.metabase-calcul p {
+    font-size: 3rem;
+    margin: 20px 0 20px;
+}
+
+/* Mobile M breakpoint 375px */
+@media screen and (max-width: 375px) {
+
+}
+
+/* Mobile L breakpoint 425px */
+@media screen and (max-width: 425px) {
+    
+}
+
+/* Tablet breakpoint 768px */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* Laptop breakpoint 1024px */
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* Laptop 2k breakpoint 1440px */
+@media screen and (max-width: 1440px) {
+    
+}
+
+/* Laptop 4k breakpoint 2560px */
+@media screen and (max-width: 2560px) {
+    
+}

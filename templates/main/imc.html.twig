@@ -1,0 +1,153 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}IMC{% endblock %}
+
+{% block body %}
+
+    <div class="div_conteneur_parent">
+        <div class="div_conteneur_page">
+            <div class="div_int_page">
+                <div style="width=100%;display:block;text_align:center;">
+                </div>
+
+                <div class="div_saut_ligne" style="height:30px;">
+                </div>
+
+                <div style="float:left;width:10%;height:40px;"></div>
+                <div style="float:left;width:80%;height:40px;text_align:center;">
+                    <div style="width:auto;height:auto;display:block;text_align:center;background_color:#EDEEEE;border:#666666 1px solid;padding_top:12px;">
+                    <h1>Calcul de votre IMC en javascripts</h1>
+                    </div>
+                </div>
+                <div style="float:left:width:10%;height:40px;"></div>
+
+                <div class="div_saut_ligne" style="height:30px;">
+                </div>
+
+                <div style="float:left;width:30%;height:100px;"></div>
+                <div style="float:left;width:40%;height:100px;text_align:center;">
+
+                    <div style="width:auto;height:auto;display:block;position:relative;background_color:#EDEEEE;border:#666666 1px solid;padding_top:12px;">
+                        <div style="height:50px;width:100%;font_size:14px;font_weight:bold;">Le calcul de votre IMC conduit à un résultat de :</div>
+                        <div style="height:40px;width:100%;font_size:24px;font_weight:bold;color:red" id="res_imc">Calcul à définir</div>
+                    </div>
+                </div>
+                <div style="float:left;width:30%;height:100px;"></div>
+
+                <div class="div_saut_ligne" style="height:30px;">
+                </div>
+
+                <div style="float:left;width:10%;height:10px;"></div>
+
+                <div class="div_imc_ind"><img id="img1" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img2" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img3" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img4" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img5" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img6" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img7" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img8" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img9" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img10" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img11" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img12" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img13" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img14" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img15" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img16" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img17" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img18" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img19" src="images/indicateur.png" style="visibility:hidden;"/></div>
+                <div class="div_imc_ind"><img id="img20" src="images/indicateur.png" style="visibility:hidden;"/></div>
+
+                <div style="float:left;width:10%;height:10px;"></div>
+
+                <div class="div_saut_ligne" style="height:20px;">
+                </div>
+
+                <div style="float:left;width:10%;height:104px;"></div>
+                <div style="width:32%;" class="div_imc div_tranche1">Normal</div>
+                <div style="width:20%;color:#666666;" class="div_imc div_tranche2">Surpoids</div>
+                <div style="width:28%;" class="div_imc div_tranche3">Obésité</div>
+                <div style="float:left;width:10%;height:104px;"></div>
+
+                <div class="div_saut_ligne">
+                </div>
+
+                <div style="flaot:left;width:10px;height:10px;"></div>
+
+                <div class="div_imc_ind">18</div>
+                <div class="div_imc_ind">19</div>
+                <div class="div_imc_ind">20</div>
+                <div class="div_imc_ind">21</div>
+                <div class="div_imc_ind">22</div>
+                <div class="div_imc_ind">23</div>
+                <div class="div_imc_ind">24</div>
+                <div class="div_imc_ind">25</div>
+                <div class="div_imc_ind">26</div>
+                <div class="div_imc_ind">27</div>
+                <div class="div_imc_ind">28</div>
+                <div class="div_imc_ind">29</div>
+                <div class="div_imc_ind">30</div>
+                <div class="div_imc_ind">31</div>
+                <div class="div_imc_ind">32</div>
+                <div class="div_imc_ind">33</div>
+                <div class="div_imc_ind">34</div>
+                <div class="div_imc_ind">35</div>
+                <div class="div_imc_ind">36</div>
+                <div class="div_imc_ind">37</div>
+
+                <div style="flaot:left;width:10%;height:10px;"></div>
+
+                <div class="div_saut_ligne" style="height:200px;">
+                </div>
+
+                </div>
+        </div>
+    </div>
+    <!-- <div class="imc-calcul-section">
+    <h1>Calcul de votre Indice de Masse Corporelle</h1>
+
+    <div class="div-imc-ind"><img id="img1" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img2" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img3" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img4" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img5" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img6" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img7" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img8" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img9" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img10" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img11" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img12" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img13" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img15" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img14" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img16" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img17" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img18" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img19" src="images/indicateur.png" style="visibility:hidden;"/></div>
+    <div class="div-imc-ind"><img id="img20" src="images/indicateur.png" style="visibility:hidden;"/></div>
+
+    <div class="div-imc-ind">18</div>
+    <div class="div-imc-ind">19</div>
+    <div class="div-imc-ind">20</div>
+    <div class="div-imc-ind">21</div>
+    <div class="div-imc-ind">22</div>
+    <div class="div-imc-ind">23</div>
+    <div class="div-imc-ind">24</div>
+    <div class="div-imc-ind">25</div>
+    <div class="div-imc-ind">26</div>
+    <div class="div-imc-ind">27</div>
+    <div class="div-imc-ind">28</div>
+    <div class="div-imc-ind">29</div>
+    <div class="div-imc-ind">30</div>
+    <div class="div-imc-ind">31</div>
+    <div class="div-imc-ind">32</div>
+    <div class="div-imc-ind">33</div>
+    <div class="div-imc-ind">34</div>
+    <div class="div-imc-ind">35</div>
+    <div class="div-imc-ind">36</div>
+    <div class="div-imc-ind">37</div>
+    </section> -->
+{% endblock %}
